@@ -1,6 +1,10 @@
 public class DoorFirstRiddle{
     public int energyPoints=100;
 
+    public void hint(int num){
+
+    }
+
  
 
    public int guessNumber(int n){
