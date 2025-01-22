@@ -23,7 +23,7 @@ class Array{
     return temp;
 }
 public static void palindrome2(int[] arr){
-   // ArrayList<Integer> temp=new ArrayList<>();
+    ArrayList<Integer> temp=new ArrayList<>();
     for(int i=0;i<arr.length;i++){
       int ch=check(arr[i]);
       if(ch==arr[i]){
@@ -32,15 +32,19 @@ public static void palindrome2(int[] arr){
 }
 
 }
+public boolean hel(){
+    return true;
+}
+
 
 
 public static void main(String[] args) {
     int[] arr={22,33,454,565,31};
-    // ArrayList<Integer> re=palindrome(arr);
-    // for(int e:re){
-    //     System.out.println(e);
-    // }
-System.out.println(palindrome(arr));
+    ArrayList<Integer> re=palindrome(arr);
+    for(int e:re){
+        System.out.println(e);
+    }
+    
   
 
   
